@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home::after {
+  content: "";
+  width: 100vw;
+  height: 88vmin;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: polygon(100% 78%, 0% 100%, 100% 100%);
+  max-width: 100%;
+  border: none;
+  outline: none;
+}
+
+@import url('https://www.1001fonts.com/satisfy-font.html');
+
+.titles {
+  font-family: 'satisfy-font', cursive;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
